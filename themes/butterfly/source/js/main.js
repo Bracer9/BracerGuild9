@@ -2,6 +2,26 @@ document.addEventListener('DOMContentLoaded', () => {
   let headerContentWidth, $nav
   let mobileSidebarOpen = false
 
+    // ローディングアニメーションの設定
+    if (!localStorage.getItem('hasVisited')) {
+      // 初回ロード時だけローディングアニメーションを表示
+      const loadingText = document.querySelector('.loading-word');
+      if (loadingText) {
+        loadingText.textContent = "読み込み中..."; // 変更したいテキストに変更
+      }
+
+      // ローディングを完了としてマーク
+      setTimeout(function() {
+        document.body.classList.add('loaded'); // 'loaded' クラスでローディング完了
+      }, 1000); // アニメーションの時間に合わせて調整
+
+      // 初回訪問したことを記録
+      localStorage.setItem('hasVisited', 'true');
+    } else {
+      // 2回目以降のページ遷移ではローディングを表示しない
+      document.body.classList.add('loaded');
+    }
+    
   const adjustMenu = init => {
     const getAllWidth = ele => Array.from(ele).reduce((width, i) => width + i.offsetWidth, 0)
 
@@ -911,7 +931,8 @@ document.addEventListener('DOMContentLoaded', () => {
   btf.addGlobalFn('pjaxComplete', refreshFn, 'refreshFn')
   refreshFn()
   unRefreshFn()
-
+  
+  
   // 處理 hexo-blog-encrypt 事件
   window.addEventListener('hexo-blog-decrypt', e => {
     forPostFn()
