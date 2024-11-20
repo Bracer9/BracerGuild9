@@ -23,15 +23,15 @@ nav:
   #   Movie: /movies/ || fas fa-video
 
 menu:
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
-  Tags: /tags/ || fas fa-tags
-  Categories: /categories/ || fas fa-folder-open
-  List||fas fa-list:
-    Music: /music/ || fas fa-music
-    Movie: /movies/ || fas fa-video
-  Link: /link/ || fas fa-link
-  About: /about/ || fas fa-heart
+  主页: / || fas fa-home
+  一览: /archives/ || fas fa-archive
+  属性: /tags/ || fas fa-tags
+  类别: /categories/ || fas fa-folder-open
+  资料||fas fa-list:
+    音乐: /music/ || fas fa-music
+    图片: /movies/ || fas fa-video
+  链接: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
@@ -779,14 +779,14 @@ theme_color:
   text_selection: "#1a0695"
   link_color: 
   meta_color: 
-  hr_color: "#f2d388"
+  hr_color: "#1a0695"
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
   toc_color: " #1a0695"
   blockquote_padding_color: "#49b1f5"
   blockquote_background_color: "#49b1f5"
-  scrollbar_color: "#f2d388"
-  meta_theme_color_light: "#1a0695"
+  scrollbar_color: "#1a0695"
+  meta_theme_color_light: "#082979"
   meta_theme_color_dark: "#f2d388"
 
 # The user interface setting of category and tag page
