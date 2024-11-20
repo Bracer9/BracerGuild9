@@ -79,7 +79,7 @@ default_top_img:
 index_img: /BracerGuild9/img/vampire-miku.jpg
 
 # The banner image of archive page
-archive_img: /BracerGuild9/img/vampire-miku.jpg
+archive_img: "#082979"
 
 # Note: tag page, not tags page
 tag_img: /BracerGuild9/img/vampire-miku.jpg
@@ -98,11 +98,11 @@ category_img: /BracerGuild9/img/vampire-miku.jpg
 category_per_img: /BracerGuild9/img/vampire-miku.jpg
 
 # The background image of footer
-footer_img: true
+footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background: /BracerGuild9/img/vampire-miku.jpg
+background: "#f2d388"
 
 cover:
   # Disable the cover or not
@@ -110,7 +110,7 @@ cover:
   aside_enable: true
   archives_enable: true
   # When cover is not set, the default cover is displayed
-  default_cover: img/vampire-miku.jpg 
+  default_cover: 
     # - xxx.jpg
 
 # Replace Broken Images
@@ -600,7 +600,7 @@ utterances:
   issue_term: pathname
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
   light_theme: github-light
-  dark_theme: photon-dark
+  dark_theme: github-dark-orange
   js:
   option:
 
@@ -746,6 +746,7 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
+# default theme_color
 # theme_color:
 #   enable: true
 #   main: "#49B1F5"
@@ -763,6 +764,26 @@ site_verification:
 #   scrollbar_color: "#49b1f5"
 #   meta_theme_color_light: "ffffff"
 #   meta_theme_color_dark: "#0d0d0d"
+
+# yellow: #f2fe6a blue: #1a0695
+# yellow2: #f2d388 blue2: #082979
+theme_color:
+  enable: true
+  main: "#1a0695"
+  paginator: "#1a0695"
+  button_hover: "#f2d388"
+  text_selection: "#1a0695"
+  link_color: " #1a0695"
+  meta_color: "#1a0695"
+  hr_color: "#f2d388"
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: " #1a0695"
+  blockquote_padding_color: "#49b1f5"
+  blockquote_background_color: "#49b1f5"
+  scrollbar_color: "#f2d388"
+  meta_theme_color_light: "#1a0695"
+  meta_theme_color_dark: "#f2d388"
 
 # The user interface setting of category and tag page
 # Choose: index - same as Homepage UI / default - same as archives UI
@@ -783,13 +804,13 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
   source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: 
 
 # Page Transition
 enter_transitions: true
@@ -877,7 +898,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words
