@@ -175,9 +175,9 @@ subtitle:
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
     - 我们所过之处不会有一个处男幸存♥
-    - 「ガチンコ！ビッチクラブ」
-    - 说不准连令尊都玩过的黄油
-    - 「ランス01 光をもとめて」
+    - from 「ガチンコ！ビッチクラブ」
+    - 这黄油说不准连令尊都玩过
+    - from 「ランス01 光をもとめて」
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
