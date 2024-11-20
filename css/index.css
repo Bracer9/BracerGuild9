@@ -178,6 +178,8 @@ template {
 [hidden] {
   display: none
 }
+
+
 .limit-one-line,
 .container .flink .flink-item-name,
 .container .flink .flink-item-desc,
@@ -3313,6 +3315,14 @@ figure.highlight pre .javascript .function {
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s;
+  background-image: url("/BracerGuild9/img/vampire-miku.jpg") !important;
+}
+@media screen and (max-width: 768px) {
+  #page-header {
+    background-image: url("/BracerGuild9/img/island_miku.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
 }
 #page-header:not(.not-top-img):before {
   position: absolute;
