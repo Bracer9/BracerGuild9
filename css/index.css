@@ -1329,8 +1329,8 @@ canvas:not(#ribbon-canvas),
   --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
-  --hr-border: #f9e9c3;
-  --hr-before-color: #f6e0ac;
+  --hr-border: #6b54f8;
+  --hr-before-color: #3010f5;
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-a-color: #4c4948;
@@ -1361,7 +1361,7 @@ canvas:not(#ribbon-canvas),
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
   --pseudo-hover: #f2d388;
   --headline-presudo: #a0a0a0;
-  --scrollbar-color: #f2d388;
+  --scrollbar-color: #1a0695;
   --default-bg-color: #1a0695;
   --zoom-bg: #fff;
   --mark-bg: rgba(0,0,0,0.3);
