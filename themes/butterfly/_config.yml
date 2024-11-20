@@ -66,7 +66,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/vampire-miku.jpg
+  img: /img/icon.jpg
   effect: false
 
 # Disable all banner images
@@ -773,8 +773,8 @@ theme_color:
   paginator: "#1a0695"
   button_hover: "#f2d388"
   text_selection: "#1a0695"
-  link_color: " #1a0695"
-  meta_color: "#1a0695"
+  link_color: 
+  meta_color: 
   hr_color: "#f2d388"
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
