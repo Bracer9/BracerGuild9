@@ -174,10 +174,12 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 但凡咱姐妹们走过的地方，不会有一个处男能幸免于难♥
+    - “咱姐妹走到哪儿，哪儿的处男就当天灭绝♥”
     - from 「ガチンコ！ビッチクラブ」
-    - 这黄油说不准连令尊都玩过
+    - “这黄油说不准连令尊都玩过呢”
     - from 「ランス01 光をもとめて」
+    - “说什么‘是男人就用背影说话’，其实只是想被后入而已吧”
+    - from 「ヘンタイ・プリズン」
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
