@@ -76,7 +76,7 @@ disable_top_img: false
 default_top_img: 
 
 # The banner image of index page
-index_img: /BracerGuild9/img/vampire-miku.jpg
+index_img: /BracerGuild9/img/tag_butter_design.png
 
 # The banner image of archive page
 archive_img: "#082979"
@@ -90,7 +90,7 @@ tag_img: /BracerGuild9/img/vampire-miku.jpg
 tag_per_img: /BracerGuild9/img/vampire-miku.jpg
 
 # Note: category page, not categories page
-category_img: /BracerGuild9/img/vampire-miku.jpg
+category_img: /BracerGuild9/img/tag_butter_design.png
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -174,7 +174,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 我们所过之处不会有一个处男幸存♥
+    - 但凡咱姐妹们走过的地方，不会有一个处男能幸免于难♥
     - from 「ガチンコ！ビッチクラブ」
     - 这黄油说不准连令尊都玩过
     - from 「ランス01 光をもとめて」
