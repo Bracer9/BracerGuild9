@@ -1,6 +1,8 @@
 ---
 title: Hexo Template
 tags: [tutorial]
+cover: /img/vampire-miku.jpg
+published: false
 ---
 
 > A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org). Here is the template of it.
