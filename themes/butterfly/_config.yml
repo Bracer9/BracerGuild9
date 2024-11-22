@@ -24,9 +24,9 @@ nav:
 
 menu:
   主页: / || fas fa-home
-  一览: /archives/ || fas fa-archive
-  属性: /tags/ || fas fa-tags
-  类别: /categories/ || fas fa-folder-open
+  文章一览: /archives/ || fas fa-archive
+  属性标签: /tags/ || fas fa-tags
+  游戏类别: /categories/ || fas fa-folder-open
   资料||fas fa-list:
     音乐: /music/ || fas fa-music
     图片: /movies/ || fas fa-video
@@ -90,7 +90,7 @@ tag_img: /BracerGuild9/img/vampire-miku.jpg
 tag_per_img: /BracerGuild9/img/vampire-miku.jpg
 
 # Note: category page, not categories page
-category_img: /BracerGuild9/img/tag_butter_design.png
+category_img: /BracerGuild9/img/miku_catagories_cover.png
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -281,7 +281,7 @@ footer:
     since: 2019
   custom_text: 这虽然是黄油，但可不是闹着玩的
   # Copyright of theme and framework
-  #copyright: true
+  copyright: false
 
 # --------------------------------------
 # Aside Settings
@@ -309,7 +309,7 @@ aside:
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 黄 ∞ 油是一个安利黄油/美少女游戏的非剧透向个人博客。祝您阅览愉快；>
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -335,7 +335,7 @@ aside:
     enable: true
     # If set 0 will show all
     limit: 40
-    color: false
+    color: true
     # Order of tags, random/name/length
     orderby: random
     # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -344,9 +344,9 @@ aside:
   card_archives:
     enable: true
     # Type: monthly / yearly
-    type: monthly
+    type: yearly
     # Eg: YYYY年MM月
-    format: MMMM YYYY
+    format: YYYY
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
     # If set 0 will show all
@@ -379,7 +379,7 @@ rightside_bottom:
 
 # Conversion between Traditional and Simplified Chinese
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
