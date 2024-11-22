@@ -66,7 +66,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/icon.jpg
+  img: /img/butter_center.png
   effect: false
 
 # Disable all banner images
@@ -174,15 +174,15 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - “咱姐妹走到哪儿，哪儿的处男就当天灭绝♥”
+    - “这里一个处男都不剩了，因为我们来过♥”
     - from 「ガチンコ！ビッチクラブ」
     - “这黄油说不准连令尊都玩过呢”
     - from 「ランス01 光をもとめて」
-    - “说什么‘是男人就用背影说话’，其实只是想被后入而已吧”
+    - “说什么‘是男人就用背影说话’，其实只是想被后入的借口吧”
     - from 「ヘンタイ・プリズン」
     - “人被杀，就会死”
     - from 「Fate/stay night」
-    - “男人变态有什么错”
+    - “男人变态有什么错！？”
     - from 「ひぐらしのなく頃に」
     
 
@@ -194,7 +194,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 6
+index_layout: 1
 
 # Display the article introduction on homepage
 # 1: description
