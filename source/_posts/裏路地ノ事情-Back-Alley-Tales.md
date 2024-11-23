@@ -1,6 +1,6 @@
 ---
 title: 裏路地ノ事情-Back Alley Tales
-cover: /img/
-date: 2024-11-23 04:18:17
+cover: /img/urajijo_cover.jpg
+date: 2021-03-06 04:18:17
 tags:
 ---
