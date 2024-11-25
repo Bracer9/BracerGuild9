@@ -1,6 +1,6 @@
 ---
 title: RIO's_KITCHEN
-cover: /img/
-date: 2024-11-22 21:11:29
+cover: /img/riokichi_cover.jpg
+date: 2021-11-22 21:11:29
 tags:
 ---

@@ -1,6 +1,6 @@
 ---
 title: Fate/stay night
-cover: /img/
-date: 2024-11-23 00:42:22
+cover: /img/FateSN_cover.jpg
+date: 2017-01-23 00:42:22
 tags:
 ---

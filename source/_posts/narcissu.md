@@ -1,6 +1,6 @@
 ---
 title: narcissu
-cover: /img/
-date: 2024-11-22 21:31:59
+cover: /img/narcissu_cover.jpg
+date: 2014-12-22 21:31:59
 tags:
 ---
