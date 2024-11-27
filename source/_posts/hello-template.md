@@ -2,6 +2,7 @@
 title: Hexo Template
 tags: [tutorial]
 cover: /img/vampire-miku.jpg
+date: 2024-11-27 16:10:32
 published: false
 ---
 
