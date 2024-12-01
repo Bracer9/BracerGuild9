@@ -10,7 +10,7 @@ window.onload = function() {
   window.onload = function() {
     // セッションストレージに「passwordEntered」がない場合のみパスワードを要求
     if (!sessionStorage.getItem("passwordEntered")) {
-      var password = prompt("パスワードを入力して:");
+      var password = prompt("パスワードを小文字で入力してね♫");
   
       if (password === "ltx") {
         // 正しいパスワードが入力された場合
