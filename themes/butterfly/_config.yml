@@ -14,7 +14,7 @@ nav:
   logo:
   display_title: true
   # Whether to fix navigation bar
-  fixed: true
+  fixed: false
 
 # menu:
   # Home: / || fas fa-home
@@ -174,7 +174,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - “黄 油 名 台 词”
+    - “黄 油 名 语 录”
     - “这里一个处男都不剩了，因为我们来过♥”
     - from 「ガチンコ！ビッチクラブ」
     - “这黄油说不准连令尊都玩过呢”
