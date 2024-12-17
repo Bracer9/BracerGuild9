@@ -11,7 +11,7 @@ categories:
 > 美国少女Vlogger二人组勇闯偏僻山村。
 > 一个关于成长，百合，勇气与传承的故事。
 
-游戏平台： [Steam](https://store.steampowered.com/app/844660/Heart_of_the_Woods/) | [官方网站](https://vnstudioelan.com/games/heart-of-the-woods/) | 制作团队： [Studio Elan](https://vnstudioelan.com/) | 通关时长： 14小时
+游戏平台: [Steam](https://store.steampowered.com/app/844660/Heart_of_the_Woods/) | [官方网站](https://vnstudioelan.com/games/heart-of-the-woods/) | 制作团队: [Studio Elan](https://vnstudioelan.com/) | 通关时长: 14小时 | 语言: 英语 中文 德语 西班牙语
 <style>
   .custom-title {
     text-align: center;
@@ -25,12 +25,131 @@ categories:
 
 本作拥有极为精致的人物立绘，cg，ui以及画面演出。制作引擎使用较新的Renpy，并加入了大量自制演出和美术资源，视觉方面的游玩体验可以说是非常的赏心悦目。作为欧美百合游戏大厂的Studio Élan社相对较新的作品，某种意义上可以说是社团的集大成之作。
 
-游戏本身是传统的视觉小说，因此基本不存在游戏性的概念。游戏性评分不参与最终评价。
+### <p class="custom-title">各项目评分</p>
+<div class="chart-container2">
+{% chartjs %}
+<!-- chart -->
+{
+  "type": "bar",
+  "data": {
+    "labels": ["剧情:  7", "文本:  8", "角色:  7", "美术:  9", "音乐:  6", "配音:  7", "瑟瑟:  5"],
+    "borderWidth": 100,
+    "datasets": [{
+      "label": "*纯视觉小说游戏，游戏性不参与评分",
+      "data": [7, 8, 7, 9, 6, 7, 5],
+      "backgroundColor": "rgba(242, 211, 136, 1)",
+      "borderColor": "rgb(26, 6, 149)",
+      "hoverBackgroundColor": "rgb(26, 6, 149)",
+      "hoverBorderColor": "rgb(242, 211, 136)",
+      "borderWidth": 1,
+      "hoverBorderWidth": 2,
+      "barPercentage": 0.7,      
+      "categoryPercentage": 0.8
+      
+    }]
+  },
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": true,
+    "aspectRatio": 1.5,
+    "indexAxis": "y",
+    "scales": {
+      "x": {
+        "beginAtZero": true,
+        "max": 10,
+        "ticks": {
+          "stepSize": 1
+        }
+      },
+      "y": {
+        "ticks": {
+        "font": {
+          "size": 14  
+        }
+      },
+        "barPercentage": 0.8,    
+        "categoryPercentage": 0.9
+      }
+    }
+  }
+}
+<!-- endchart -->
+{% endchartjs %}
+</div>
+<br>
 
-本作综合和各项得分评价见下图↓
+### <p class="custom-title">综合得分: 70/100</p>
+<br>
 
+### <p class="custom-title">同类游戏对比</p>
+<div class="chart-container">
+{% chartjs %}
+<!-- chart -->
+{
+  "type": "radar",
+  "data": {
+    "labels": [
+      "剧情", "文本", "角色", "美术", "音乐", "配音", "瑟瑟"
+    ],
+    "datasets": [
+      {
+        "label": "Heart of the Woods",
+        "data": [7, 8, 7, 9, 6, 7, 5],
+        "fill": true,
+        "backgroundColor": "rgba(242, 211, 136, 0.2)",
+        "borderColor": "rgb(242, 211, 136)",
+        "pointBackgroundColor": "rgb(242, 211, 136)"
+      },
+      {
+        "label": "视觉小说平均得分",
+        "data": [5, 5, 5, 5, 5, 5, 5],
+        "fill": true,
+        "backgroundColor": "rgba(26, 6, 149, 0.85)",
+        "borderColor": "rgb(26, 6, 149)",
+        "pointBackgroundColor": "rgb(26, 6, 149)"
+      }
+    ]
+  },
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": true,
+    "scales": {
+      "r": {
+        "min": 0,
+        "max": 10,
+        "ticks": {
+          "font": {
+          "size": 12
+        },
+          "stepSize": 1
+        },
+        "pointLabels": {
+        "font": {
+          "size": 16
+        }
+      }
+      }
+    }
+  }
+}
+<!-- endchart -->
+{% endchartjs %}
+</div>
 
-{% asset_img overview.png %}
+### <p class="custom-title">推荐度: B+</p>
+**Pros**：  
+\+ **美术与演出**：精美的角色立绘与CG，演出效果流畅自然，视觉体验极佳。  
+\+ **角色塑造**：主角群性格鲜明，Morgan的魅力贯穿全程，角色互动充满张力。  
+\+ **剧情开篇吸引力强**：开篇悬念出色，灵异元素引人入胜。  
+\+ **配音加成**：英文配音自然传神，Morgan的配音尤其出彩。  
+
+**Cons**：  
+\- **剧情后期稍显套路**：中后期展开predictable，部分玩家可能觉得缺乏新意。  
+\- **H场景无配音**：R18补丁虽提供瑟瑟内容，但缺少配音，代入感不足。  
+\- **主题曲旋律普通**：BGM旋律较常规，缺乏辨识度与亮点。  
+**<p class="custom-title">具体细节请参考下方各项目评价</p>**
+**<p class="custom-title">↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</p>**
+<br>
 
 ## <p class="custom-title">无剧透剧情概要</p>
 故事的舞台是Eysenfeld，一个虚构的群山环绕，与世隔绝的寒冷的小村庄。主角是来自美国的一对好搭档，分别叫Maddie和Tara。她们作为Vlogger，一起经营一档名为“Taranormal”的灵异现象频道，并且在网上小有名气。Maddie负责视频剪辑等后期制作工作，而Tara则因为性格开朗健谈负责出镜表演。故事的开端从俩人乘坐火车前往孤僻山村Eysenfeld开始。
