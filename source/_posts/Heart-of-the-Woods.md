@@ -20,12 +20,17 @@ categories:
 {% asset_img heart_of_the_woods_cover.jpg %}
 
 ## <p class="custom-title">总评</p>
-{% asset_img overview.png %}
+
 本作是欧美anime画风百合游戏大厂Studio Élan于2019年2月15日在Steam公开的百合黄油（虽然黄油部分需要去官网下载patch）。目前（2024年11月17日）在Steam上共有763条评论，评价为“好评如潮”，绝大多数是正面评价。日区售价1700日元，约和85元人民币，属于中低档价位。
 
 本作拥有极为精致的人物立绘，cg，ui以及画面演出。制作引擎使用较新的Renpy，并加入了大量自制演出和美术资源，视觉方面的游玩体验可以说是非常的赏心悦目。作为欧美百合游戏大厂的Studio Élan社相对较新的作品，某种意义上可以说是社团的集大成之作。
 
 游戏本身是传统的视觉小说，因此基本不存在游戏性的概念。游戏性评分不参与最终评价。
+
+本作综合和各项得分评价见下图↓
+
+
+{% asset_img overview.png %}
 
 ## <p class="custom-title">无剧透剧情概要</p>
 故事的舞台是Eysenfeld，一个虚构的群山环绕，与世隔绝的寒冷的小村庄。主角是来自美国的一对好搭档，分别叫Maddie和Tara。她们作为Vlogger，一起经营一档名为“Taranormal”的灵异现象频道，并且在网上小有名气。Maddie负责视频剪辑等后期制作工作，而Tara则因为性格开朗健谈负责出镜表演。故事的开端从俩人乘坐火车前往孤僻山村Eysenfeld开始。

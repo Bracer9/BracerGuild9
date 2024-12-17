@@ -267,3 +267,39 @@ beautify()
 .post-content
   font-size: 1.15em // 標準より大きく（お好みのサイズに調整）
   line-height: 2  // 行間を広げる（視認性向上）
+
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  width: 90vw; /* 画面幅の80% */
+  height: 90vh; /* 画面高さの80% */
+  max-width: 500px; /* 最大幅 */
+  max-height: 500px; /* 最大高さ */
+  margin-bottom: 1.5em; /* デフォルトの余白（1行分） */
+}
+
+/* スマホ用の高さ調整 */
+@media screen and (max-width: 768px) {
+  .chart-container {
+    height: auto; /* 自動で高さを調整 */
+    max-height: 500px; /* 最大高さを制限（適宜調整） */
+    width: 100%; /* 横幅は画面いっぱい */
+  }
+}
+
+/* 横並びバーグラフ用 */
+.chart-container2 {
+  height: 500px; /* 縦に伸ばす */
+  width: 625px; /* 横幅を増やす */
+  margin: auto;
+}
+
+/* スマホ用の高さ調整 */
+@media screen and (max-width: 768px) {
+  .chart-container2 {
+    height: auto; /* 自動で高さを調整 */
+    max-height: 500px; /* 最大高さを制限（適宜調整） */
+    width: 100%; /* 横幅は画面いっぱい */
+  }
+}
