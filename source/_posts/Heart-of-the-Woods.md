@@ -25,6 +25,7 @@ categories:
 
 本作拥有极为精致的人物立绘，cg，ui以及画面演出。制作引擎使用较新的Renpy，并加入了大量自制演出和美术资源，视觉方面的游玩体验可以说是非常的赏心悦目。作为欧美百合游戏大厂的Studio Élan社相对较新的作品，某种意义上可以说是社团的集大成之作。
 
+### <p class="custom-title">综合得分: 70/100</p>
 ### <p class="custom-title">各项目评分</p>
 <div class="chart-container2">
 {% chartjs %}
@@ -76,10 +77,6 @@ categories:
 <!-- endchart -->
 {% endchartjs %}
 </div>
-<br>
-
-### <p class="custom-title">综合得分: 70/100</p>
-<br>
 
 ### <p class="custom-title">同类游戏对比</p>
 <div class="chart-container">
