@@ -171,30 +171,20 @@ categories:
 
 ### 角色
 **Maddie**是一个乍看之下有一点cynical的早熟女孩，文静，内敛，聪慧，重视私人空间，喜欢看电影，但必须和人打交道时也能做到言行得体。和大大咧咧自信放光芒的典型美式女孩Tara形成鲜明的对比，从这个角度来看，她们俩作为Vlog搭档可以说是起到了相辅相成的作用。
-{% asset_img madonthetrain.jpg %}
-{% blockquote %}
-驶向Eysenfeld的列车，无话可说的二人
-{% endblockquote %}
-
+<img src="/BracerGuild9/Heart-of-the-Woods/madonthetrain.jpg" class="image-landscape" alt="Maddie">
+<p class="caption">驶向Eysenfeld的列车，无话可说的二人<p>
 
 **Tara...**
-{% asset_img taratalk1.jpg %}
-{% blockquote %}
-well that actually does sound like a brilliant idea
-{% endblockquote %}
+<img src="/BracerGuild9/Heart-of-the-Woods/taratalk1.jpg" class="image-landscape" alt="Tara1">
+<p class="caption">well that actually does sound like a brilliant idea<p>
 
 热血笨蛋，~~是trans~~，以上。
 
-{% asset_img taratalk2.jpg %}
-{% blockquote %}
-嗯，果然关于Tara没什么需要补充的（
-{% endblockquote %}
+<img src="/BracerGuild9/Heart-of-the-Woods/taratalk2.jpg" class="image-landscape" alt="Tara2">
+<p class="caption">嗯，果然关于Tara没什么需要补充的（<p>
 
-{% asset_img morgan.jpg %}
-{% blockquote %}
-Morgan the best girl!!!
-{% endblockquote %}
-
+<img src="/BracerGuild9/Heart-of-the-Woods/morgan.jpg" class="image-landscape" alt="Morgan">
+<p class="caption">Morgan the best girl!!!（<p>
 
 Taranormal多年老粉（自称），Eysenfeld镇长女儿**Morgan**。号称自己的猫会说话，写信的时候完全就是一副饭圈女孩的气势，实际见了面却意外地冷静（可能有点冷静过头了？）。明明容姿出众，而且脑子也很好使，不知为什么在Eysenfeld当地人的心目中好像印象不太好的样子？据本人所说，她除了自家猫猫，连能说几句真心话的朋友都没有。
 于笔者而言，其实在整个游戏通关后，反而是Morgan这个角色显得最有魅力。一想到她特殊的身世，独自承受和背负的一切，还有在特定结局中的不幸的遭遇，心情便难以平复，从某种意义上来说，就算为了Morgan这一个角色，这部游戏也有通关的价值。
