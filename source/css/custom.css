@@ -33,3 +33,17 @@ nav .site-page {
   color: #555; /* テキストカラー */
   font-style: italic; /* イタリック体 */
 }
+
+/* 動画関連設定*/
+.video-container {
+  display: flex;
+  justify-content: center; /* 水平方向に中央寄せ */
+  margin: 20px 0; /* 上下に余白を追加 */
+  width: 100%;
+  max-width: 800px; /* 必要に応じて最大幅を設定 */
+}
+
+.video-container iframe {
+  width: 100%; /* 親要素に合わせた幅 */
+
+}
