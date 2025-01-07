@@ -68,3 +68,10 @@ nav .site-page {
       width: 100% !important;
   }
 }
+
+/* スマホ画面向けのスタイル調整 */
+@media (max-width: 768px) { /* 768px以下をスマホ画面と仮定 */
+  .image-portrait {
+      max-height: 300px; /* スマホ用の適切な最大高さに調整 */
+  }
+}
