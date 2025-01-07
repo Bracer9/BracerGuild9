@@ -47,3 +47,24 @@ nav .site-page {
   width: 100%; /* 親要素に合わせた幅 */
 
 }
+
+.hide-block {
+  text-align: center;
+}
+
+.hide-block .hide-content {
+  text-align: left; /* 左寄せ */
+}
+
+
+@media screen and (max-width: 1033px) {
+  #aside-content {
+      display: none; /* 非表示にする */
+  }
+}
+
+@media screen and (max-width: 1033px) {
+  .layout > div:first-child {
+      width: 100% !important;
+  }
+}
