@@ -315,7 +315,7 @@ aside:
   card_recent_post:
     enable: true
     # If set 0 will show all
-    limit: 5
+    limit: 3
     # Sort: date / updated
     sort: date
     sort_order:
@@ -327,14 +327,14 @@ aside:
     storage: 10
     avatar: true
   card_categories:
-    enable: true
+    enable: false
     # If set 0 will show all
-    limit: 8
+    limit: 5
     # Choose: none / true / false
     expand: none
     sort_order:
   card_tags:
-    enable: false
+    enable: true
     # If set 0 will show all
     limit: 40
     color: true
@@ -344,7 +344,7 @@ aside:
     order: 1
     sort_order:
   card_archives:
-    enable: true
+    enable: false
     # Type: monthly / yearly
     type: yearly
     # Eg: YYYY年MM月
