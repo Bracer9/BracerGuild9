@@ -95,11 +95,11 @@ toc: true
   font-weight: 650;
   text-decoration: none;
   display: block;
-  margin-bottom: 0.1em;
   color: var(--text-main);
   transition: color 0.18s ease;
-  min-height: 2em;
-  line-height: 1.3;
+  min-height: 1.5em;
+  line-height: 1.2;
+  font-family: sans-serif;
 }
 
 .links-page .link-name:hover {
@@ -211,9 +211,6 @@ h3:has(.custom-title) {
 
 .fancy-main-title .title-text {
   display: inline-block;
-  padding: 0.05em 0.35em;
-  background: rgba(242, 211, 136, 0.72);
-  border-radius: 4px;
 }
 
 .fancy-main-title .ornament {
