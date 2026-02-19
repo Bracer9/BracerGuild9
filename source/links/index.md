@@ -246,8 +246,8 @@ h3:has(.custom-title) {
   }
 
   /* Headings: reduce size so they don't look broken on mobile */
-  h2 .custom-title { font-size: 1.25em; }
-  h3 .custom-title { font-size: 1.12em; }
+  h2 .custom-title { font-size: 1.1em; }
+  h3 .custom-title { font-size: 1em; }
 
   /* Grid: denser layout */
   .links-page .link-grid {
@@ -489,6 +489,12 @@ function copyLink(btn, url) {
 <button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://www.hacg.site/')">⧉</button>
 </div>
 
+<div class="link-card">
+<a class="link-name" href="https://theporndude.com/ja" target="_blank">PORNDUDE</a>
+<div class="link-desc">据说是全世界最大的瑟瑟资源导航站，内容多但分类杂乱</div>
+<button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://theporndude.com/ja')">⧉</button>
+</div>
+
 </div>
 </div>
 </div>
@@ -643,12 +649,6 @@ function copyLink(btn, url) {
 <a class="link-name" href="https://wt.tepis.me/#" target="_blank">可穿戴科技</a>
 <div class="link-desc">有趣的网站</div>
 <button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://wt.tepis.me/#')">⧉</button>
-</div>
-
-<div class="link-card">
-<a class="link-name" href="https://theporndude.com/ja" target="_blank">PORNDUDE</a>
-<div class="link-desc">据说是全世界最大的瑟瑟资源导航站，内容多但分类杂乱</div>
-<button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://theporndude.com/ja')">⧉</button>
 </div>
 
 
