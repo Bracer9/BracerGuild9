@@ -273,6 +273,7 @@ h3:has(.custom-title) {
     line-height: 1.4;
     -webkit-line-clamp: 2;
     padding-right: 40px; /* keep clear of copy button */
+    margin-top: 0;
   }
 
   .links-page .copy-btn {
@@ -429,6 +430,12 @@ function copyLink(btn, url) {
 <a class="link-name" href="https://rule34video.com/" target="_blank">rule34video</a>
 <div class="link-desc">3d同人视频为主，能找到大量mmd赞助内容</div>
 <button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://rule34video.com/')">⧉</button>
+</div>
+
+<div class="link-card">
+<a class="link-name" href="https://kemono.cr/" target="_blank">kemono</a>
+<div class="link-desc">fantia，Patreon等会员套餐瑟瑟mmd下载站。</div>
+<button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://kemono.cr/')">⧉</button>
 </div>
 
 </div>
