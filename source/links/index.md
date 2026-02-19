@@ -168,13 +168,15 @@ toc: true
 
 h2 .custom-title {
   font-size: 1.5em;
+  background: #1a0695;
+  color: #ffffff;
 }
 
 h3 .custom-title {
   font-size: 1.35em;
 }
 
-.custom-title::before {
+h3 .custom-title::before {
   content: "";
   position: absolute;
   left: 0;
@@ -186,11 +188,11 @@ h3 .custom-title {
   transition: width 0.28s ease;
 }
 
-.custom-title:hover {
+h3 .custom-title:hover {
   color: #ffffff;
 }
 
-.custom-title:hover::before {
+h3 .custom-title:hover::before {
   width: 100%;
 }
 /* ===== Center category headings only ===== */
@@ -218,8 +220,87 @@ h3:has(.custom-title) {
   margin: 0 0.6em;
   opacity: 0.85;
 }
-</style>
 
+/* ===== Mobile fixes (title alignment + higher density cards) ===== */
+@media (max-width: 768px) {
+  /* Main title: prevent awkward wrapping/misalignment */
+  .fancy-main-title {
+    width: 100%;
+    margin: 1.4em 0 1.2em 0;
+    font-size: 2.1em;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45em;
+    line-height: 1.15;
+    text-align: center;
+  }
+  .fancy-main-title .title-text {
+    text-align: center;
+  }
+  .fancy-main-title .ornament {
+    margin: 0;
+    flex: 0 0 auto;
+    opacity: 0.75;
+  }
+
+  /* Headings: reduce size so they don't look broken on mobile */
+  h2 .custom-title { font-size: 1.25em; }
+  h3 .custom-title { font-size: 1.12em; }
+
+  /* Grid: denser layout */
+  .links-page .link-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75em;
+  }
+
+  /* Cards: less tall, more information density */
+  .links-page .link-card {
+    padding: 0.75em 0.85em 2.2em 0.85em;
+    min-height: 118px;
+    border-radius: 16px;
+  }
+
+  .links-page .link-name {
+    font-size: 1.18em;
+    min-height: 2.4em; /* normalize title height so desc starts same line */
+    line-height: 1.2;
+  }
+
+  .links-page .link-desc {
+    font-size: 0.98em;
+    line-height: 1.4;
+    -webkit-line-clamp: 2;
+    padding-right: 40px; /* keep clear of copy button */
+  }
+
+  .links-page .copy-btn {
+    width: 28px;
+    height: 28px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* Very small screens: single column, hide ornaments */
+  .fancy-main-title { font-size: 1.85em; gap: 0; }
+  .fancy-main-title .ornament { display: none; }
+
+  .links-page .link-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .links-page .link-card {
+    min-height: 104px;
+    padding: 0.7em 0.85em 2.0em 0.85em;
+  }
+}
+
+</style>
 <script>
 function copyLink(btn, url) {
   navigator.clipboard.writeText(url);
