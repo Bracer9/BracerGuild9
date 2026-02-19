@@ -368,6 +368,12 @@ function copyLink(btn, url) {
 <div class="link-grid">
 
 <div class="link-card">
+<a class="link-name" href="https://www.wnacg.com/" target="_blank">绅士漫画</a>
+<div class="link-desc">老牌中文同人誌资源</div>
+<button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://www.wnacg.com/')">⧉</button>
+</div>
+
+<div class="link-card">
 <a class="link-name" href="https://hitomi.la/" target="_blank">hitomi</a>
 <div class="link-desc">同人誌资源，搜索功能好，可一键打包下载，分辨率一般</div>
 <button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://hitomi.la/')">⧉</button>
@@ -535,6 +541,12 @@ function copyLink(btn, url) {
 <button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://steamunlocked.org/')">⧉</button>
 </div>
 
+<div class="link-card">
+<a class="link-name" href="https://www.gamer520.com/" target="_blank">Gamer520</a>
+<div class="link-desc">一站式中文游戏资源平台，包括pc单机到模拟器游戏，仅支持百度网盘</div>
+<button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://www.gamer520.com/')">⧉</button>
+</div>
+
 </div>
 </div>
 </div>
@@ -632,6 +644,13 @@ function copyLink(btn, url) {
 <div class="link-desc">有趣的网站</div>
 <button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://wt.tepis.me/#')">⧉</button>
 </div>
+
+<div class="link-card">
+<a class="link-name" href="https://theporndude.com/ja" target="_blank">PORNDUDE</a>
+<div class="link-desc">据说是全世界最大的瑟瑟资源导航站，内容多但分类杂乱</div>
+<button class="copy-btn" title="复制网址" onclick="copyLink(this,'https://theporndude.com/ja')">⧉</button>
+</div>
+
 
 </div>
 </div>
